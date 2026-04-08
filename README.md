@@ -1,4 +1,4 @@
-Connecting to a database in Python typically follows a standardized workflow defined by the Python Database API Specification (PEP 249). The process involves installing a database-specific driver, establishing a connection, and using a cursor to execute SQL commands. 
+✅Connecting to a database in Python typically follows a standardized workflow defined by the Python Database API Specification (PEP 249). The process involves installing a database-specific driver, establishing a connection, and using a cursor to execute SQL commands. 
 
 1. General Connection Workflow:-
 Regardless of the database type, the sequence of operations is generally the same:
