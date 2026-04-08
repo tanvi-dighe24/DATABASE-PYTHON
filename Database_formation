@@ -1,0 +1,29 @@
+
+import sqlite3
+
+
+a=sqlite3.connect('College.db')
+
+
+b=a.cursor()
+
+
+#b.execute('create table Student(s_name char,s_id int,s_loc char)')
+
+
+b.execute("insert into Student values('sita',101,'banglore')")
+
+
+b.execute("insert into Student values('swami',102,'hyd')")
+
+
+b.execute("insert into Student values('ram',103,'chennai')")
+
+
+b.execute("insert into Student values('tanvi',103,'chennai')")
+
+
+a.commit()
+
+
+print(list(b.execute('select * from Student'))) 
